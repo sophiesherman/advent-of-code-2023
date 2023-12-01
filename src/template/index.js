@@ -1,6 +1,7 @@
 import run from "aocrunner";
+import _ from "lodash";
 
-const parseInput = (rawInput) => rawInput;
+const parseInput = (rawInput) => rawInput.split(/\r?\n/);
 
 const part1 = (rawInput) => {
   const input = parseInput(rawInput);
