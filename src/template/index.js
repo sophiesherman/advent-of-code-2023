@@ -4,13 +4,13 @@ import _ from "lodash";
 const parseInput = (rawInput) => rawInput.split(/\r?\n/);
 
 const part1 = (rawInput) => {
-  const input = parseInput(rawInput);
+  const inputs = parseInput(rawInput);
 
   return;
 };
 
 const part2 = (rawInput) => {
-  const input = parseInput(rawInput);
+  const inputs = parseInput(rawInput);
 
   return;
 };
