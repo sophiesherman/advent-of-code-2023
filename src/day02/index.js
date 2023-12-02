@@ -18,8 +18,7 @@ const part1 = (rawInput) => {
     const [game, sets] = item.trim().split(":");
 
     sets.split("; ").forEach((set) => {
-      let items = set.split(", ");
-      items.forEach((item) => {
+      set.split(", ").forEach((item) => {
         const [count, color] = item.trim().split(" ");
         if (+count > maxColorAvailable[color]) {
           possible = false;
